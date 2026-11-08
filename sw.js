@@ -1,5 +1,5 @@
 // App shell cached for offline; schedule data is network-first so it stays fresh.
-const CACHE = "nba-games-v1";
+const CACHE = "nba-games-v2";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", e => {

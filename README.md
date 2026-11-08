@@ -1,6 +1,6 @@
-# My NBA Games
+# My Games (NBA + NFL)
 
-A tiny PWA that lists U.S. national NBA TV games (Prime Video, ESPN, ABC, NBC, Peacock, NBCSN) and filters them to the services you have. Settings are saved on your device.
+A tiny PWA that lists national NBA games and every NFL game (with Raleigh local CBS/FOX coverage) and filters them to the services you have. Settings are saved on your device.
 
 - `games.json`: the schedule data, refreshed weekly
 - `sw.js`: offline cache (network first, so new data shows up right away)

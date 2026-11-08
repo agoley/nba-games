@@ -1,7 +1,7 @@
 {
-  "name": "My NBA Games",
-  "short_name": "NBA Games",
-  "description": "National NBA games you can watch with your services",
+  "name": "My Games",
+  "short_name": "My Games",
+  "description": "NBA and NFL games you can watch with your services",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

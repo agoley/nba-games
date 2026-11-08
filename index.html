@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>My NBA Games</title>
+<title>My Games</title>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0f1115">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="NBA Games">
+<meta name="apple-mobile-web-app-title" content="My Games">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,13 +55,18 @@
   .empty{color:var(--muted);text-align:center;padding:30px 10px}
   .foot{color:var(--muted);font-size:12px;margin-top:24px;line-height:1.5}
   .hint{background:color-mix(in srgb,var(--accent) 14%,transparent);border-radius:10px;padding:10px 12px;font-size:13px;margin-bottom:14px}
+  .tabs.sm button{padding:5px 0;font-size:12px}
+  .lg{font-weight:700;font-size:10.5px;letter-spacing:.05em;border-radius:5px;padding:2px 6px;color:#fff}
+  .lg.NBA{background:#c8102e} .lg.NFL{background:#013369}
+  .chip.reg{font-style:italic}
+  .more{color:var(--muted);font-size:12.5px;padding:2px 4px 8px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <div>
-      <h1>My NBA Games</h1>
+      <h1>My Games</h1>
       <div class="sub" id="sub">Loading schedule…</div>
     </div>
     <button class="gear" id="gearBtn">My services</button>
@@ -71,45 +76,52 @@
 
   <div class="panel" id="settings" hidden>
     <h2>What do you have?</h2>
-    <div class="opt"><input type="checkbox" id="s-prime"><label for="s-prime">Amazon Prime<small>Prime Video NBA games are included with Prime</small></label></div>
+    <div class="opt"><input type="checkbox" id="s-prime"><label for="s-prime">Amazon Prime<small>Prime Video NBA games and Thursday Night Football</small></label></div>
     <div class="grp">Hulu plan</div>
-    <div class="opt"><input type="radio" name="hulu" id="h-basic" value="basic"><label for="h-basic">Hulu (regular)<small>No live sports. Adds nothing for the NBA.</small></label></div>
-    <div class="opt"><input type="radio" name="hulu" id="h-live" value="live"><label for="h-live">Hulu + Live TV<small>ESPN, ABC and NBC (includes the ESPN app)</small></label></div>
+    <div class="opt"><input type="radio" name="hulu" id="h-basic" value="basic"><label for="h-basic">Hulu (regular)<small>No live sports</small></label></div>
+    <div class="opt"><input type="radio" name="hulu" id="h-live" value="live"><label for="h-live">Hulu + Live TV<small>ESPN, ABC, NBC, CBS, FOX and NFL Network</small></label></div>
     <div class="opt"><input type="radio" name="hulu" id="h-espn" value="espn"><label for="h-espn">Disney+ / Hulu / ESPN bundle<small>ESPN and ABC games through the ESPN app</small></label></div>
     <div class="grp">Extras</div>
-    <div class="opt"><input type="checkbox" id="s-ant"><label for="s-ant">TV antenna<small>Free ABC (WTVD 11) and NBC (WRAL 5) in Raleigh</small></label></div>
-    <div class="opt"><input type="checkbox" id="s-pea"><label for="s-pea">Peacock<small>NBC games plus Monday Peacock and NBCSN games</small></label></div>
+    <div class="opt"><input type="checkbox" id="s-ant"><label for="s-ant">TV antenna<small>Free in Raleigh: NBC 5, ABC 11, CBS 17, FOX 50</small></label></div>
+    <div class="opt"><input type="checkbox" id="s-pea"><label for="s-pea">Peacock<small>NBC games plus Peacock-only and NBCSN games</small></label></div>
+    <div class="opt"><input type="checkbox" id="s-nfx"><label for="s-nfx">Netflix<small>NFL Christmas and Thanksgiving Eve games</small></label></div>
     <button class="done" id="doneBtn">Done</button>
   </div>
 
   <div class="tabs" id="tabs">
     <button data-v="mine" class="on">I can watch</button>
-    <button data-v="all">All national games</button>
+    <button data-v="all">All games</button>
+  </div>
+  <div class="tabs sm" id="lgTabs">
+    <button data-l="ALL" class="on">NBA + NFL</button>
+    <button data-l="NBA">NBA</button>
+    <button data-l="NFL">NFL</button>
   </div>
 
   <div id="list"></div>
 
   <div class="foot" id="foot">
-    National TV games only: Prime Video, ESPN, ABC, NBC, Peacock and NBCSN. NBA TV, League Pass and local Hornets broadcasts aren't included. Times are Eastern. Schedules can change, so check the app before tip-off.
+    NBA: national games only (Prime Video, ESPN, ABC, NBC, Peacock, NBCSN); NBA TV, League Pass and Hornets local broadcasts aren't included.
+    NFL: every game. Sunday afternoon CBS/FOX games are regional, so Raleigh only gets a few each week. Panthers games always air here, and others get marked as local once the weekly coverage maps come out.
+    Times are Eastern. Schedules change, so check before kickoff.
   </div>
 </div>
 
 <script>
 (function(){
-  const DEFAULTS = { prime:true, hulu:null, antenna:false, peacock:false };
+  // Defaults match Alex's setup: Prime, Hulu + Live TV, antenna.
+  const DEFAULTS = { prime:true, hulu:"live", antenna:true, peacock:false, netflix:false };
   const store = {
-    get(){ try{ const v = JSON.parse(localStorage.getItem("nbaSvc")||"null"); return v ? Object.assign({},DEFAULTS,v) : null; }catch(e){ return null; } },
-    set(v){ try{ localStorage.setItem("nbaSvc", JSON.stringify(v)); }catch(e){} }
+    get(k){ try{ return JSON.parse(localStorage.getItem(k)||"null"); }catch(e){ return null; } },
+    set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
   };
-  let svc = store.get();
-  const firstVisit = !svc;
-  svc = svc || Object.assign({}, DEFAULTS);
+  let svc = Object.assign({}, DEFAULTS, store.get("nbaSvc") || {});
   let view = "mine";
+  let league = store.get("league") || "ALL";
   let data = null;
 
   const $ = id => document.getElementById(id);
 
-  // Where can this user watch a network?
   function sourcesFor(net){
     const out = [];
     const live = svc.hulu === "live", bundle = svc.hulu === "espn";
@@ -117,10 +129,15 @@
     if (net === "espn"){ if (live) out.push("Hulu + Live TV"); else if (bundle) out.push("ESPN app"); }
     if (net === "abc"){ if (live) out.push("Hulu + Live TV"); if (svc.antenna) out.push("Antenna · ABC 11"); }
     if (net === "nbc"){ if (live) out.push("Hulu + Live TV"); if (svc.antenna) out.push("Antenna · NBC 5"); }
+    if (net === "cbs"){ if (live) out.push("Hulu + Live TV"); if (svc.antenna) out.push("Antenna · CBS 17"); }
+    if (net === "fox"){ if (live) out.push("Hulu + Live TV"); if (svc.antenna) out.push("Antenna · FOX 50"); }
+    if (net === "nflnet" && live) out.push("Hulu + Live TV");
+    if (net === "netflix" && svc.netflix) out.push("Netflix");
     if (net === "peacock" && svc.peacock) out.push("Peacock");
     return out;
   }
   function watchOptions(g){
+    if (g.regional && !g.local) return [];   // not aired in Raleigh (or not known yet)
     const s = new Set();
     g.nets.forEach(n => sourcesFor(n).forEach(x => s.add(x)));
     return [...s];
@@ -130,31 +147,37 @@
     $("s-prime").checked = !!svc.prime;
     $("s-ant").checked = !!svc.antenna;
     $("s-pea").checked = !!svc.peacock;
+    $("s-nfx").checked = !!svc.netflix;
     ["basic","live","espn"].forEach(v => { $("h-"+v).checked = svc.hulu === v; });
   }
   function readForm(){
     svc.prime = $("s-prime").checked;
     svc.antenna = $("s-ant").checked;
     svc.peacock = $("s-pea").checked;
+    svc.netflix = $("s-nfx").checked;
     const h = document.querySelector('input[name="hulu"]:checked');
     svc.hulu = h ? h.value : null;
-    store.set(svc);
+    store.set("nbaSvc", svc);
     render();
   }
   document.querySelectorAll("#settings input").forEach(i => i.addEventListener("change", readForm));
   $("gearBtn").onclick = () => { const p=$("settings"); p.hidden = !p.hidden; };
   $("doneBtn").onclick = () => { $("settings").hidden = true; $("hint").hidden = true; window.scrollTo({top:0,behavior:"smooth"}); };
-  $("tabs").onclick = e => {
-    const b = e.target.closest("button"); if(!b) return;
-    view = b.dataset.v;
-    document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("on", x===b));
-    render();
-  };
+  function tabGroup(id, attr, set){
+    $(id).onclick = e => {
+      const b = e.target.closest("button"); if(!b) return;
+      set(b.dataset[attr]);
+      document.querySelectorAll("#"+id+" button").forEach(x => x.classList.toggle("on", x===b));
+      render();
+    };
+  }
+  tabGroup("tabs", "v", v => { view = v; });
+  tabGroup("lgTabs", "l", l => { league = l; store.set("league", l); });
+  document.querySelectorAll("#lgTabs button").forEach(x => x.classList.toggle("on", x.dataset.l === league));
 
   const fmtDay = new Intl.DateTimeFormat("en-US",{weekday:"long",month:"short",day:"numeric",timeZone:"America/New_York"});
   const fmtTime = new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"2-digit",timeZone:"America/New_York"});
   const dayKey = d => new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York"}).format(d);
-
   function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
   function render(){
@@ -162,51 +185,55 @@
     const now = Date.now();
     const todayK = dayKey(new Date());
     const tomK = dayKey(new Date(now + 864e5));
-    const upcoming = data.games.filter(g => new Date(g.start).getTime() + 3*3600e3 > now);
-    let shown = upcoming.map(g => ({g, opts: watchOptions(g)}));
-    const mineCount = shown.filter(x => x.opts.length).length;
-    if (view === "mine") shown = shown.filter(x => x.opts.length);
-
+    const upcoming = data.games.filter(g =>
+      new Date(g.start).getTime() + 3.5*3600e3 > now && (league === "ALL" || g.league === league));
+    const rows = upcoming.map(g => ({g, opts: watchOptions(g)}));
+    const mineCount = rows.filter(x => x.opts.length).length;
     $("sub").textContent = `${mineCount} upcoming game${mineCount===1?"":"s"} you can watch`;
 
-    const list = $("list");
-    if (!shown.length){
-      list.innerHTML = `<div class="empty">${view==="mine" ? "No national games on your services right now. Open <b>My services</b> to check your setup, or look at <b>All national games</b>." : "No upcoming national games listed."}</div>`;
-      return;
+    // group by day
+    const days = [];
+    for (const r of rows){
+      const k = dayKey(new Date(r.g.start));
+      if (!days.length || days[days.length-1].k !== k) days.push({k, d:new Date(r.g.start), rows:[]});
+      days[days.length-1].rows.push(r);
     }
-    let html = "", lastK = null;
-    for (const {g, opts} of shown){
-      const d = new Date(g.start);
-      const k = dayKey(d);
-      if (k !== lastK){
-        const label = k===todayK ? "Today · "+fmtDay.format(d) : k===tomK ? "Tomorrow · "+fmtDay.format(d) : fmtDay.format(d);
-        html += `<div class="day ${k===todayK?"today":""}">${esc(label)}</div>`;
-        lastK = k;
+    let html = "";
+    for (const day of days){
+      const show = view === "mine" ? day.rows.filter(x => x.opts.length) : day.rows;
+      const hiddenRegional = view === "mine" ? day.rows.filter(x => x.g.regional && !x.g.local).length : 0;
+      if (!show.length && !hiddenRegional) continue;
+      const label = day.k===todayK ? "Today · "+fmtDay.format(day.d) : day.k===tomK ? "Tomorrow · "+fmtDay.format(day.d) : fmtDay.format(day.d);
+      html += `<div class="day ${day.k===todayK?"today":""}">${esc(label)}</div>`;
+      for (const {g, opts} of show){
+        const d = new Date(g.start);
+        const started = d.getTime() <= now;
+        const t = g.timeTBD ? "TBD" : fmtTime.format(d).replace(":00","").replace(" "," ");
+        let watch;
+        if (opts.length) watch = opts.map(o => `<span class="chip watch">▶ ${esc(o)}</span>`).join("");
+        else if (g.regional) watch = `<span class="chip reg">Regional · not in Raleigh</span>`;
+        else watch = `<span class="chip need">Not on your services</span>`;
+        const net = opts.includes(g.network) ? "" : `<span class="chip">${esc(g.network)}</span>`;
+        html += `<div class="game ${opts.length?"":"no"}">
+          <div class="time">${esc(t)}${started?'<small class="live">LIVE / RECENT</small>':''}</div>
+          <div><div class="m"><span class="lg ${g.league}">${g.league}</span> ${esc(g.matchup)}</div>
+            <div class="meta">${watch}${net}${g.note?`<span class="chip">${esc(g.note)}</span>`:""}</div>
+          </div></div>`;
       }
-      const started = d.getTime() <= now;
-      const t = g.timeTBD ? "TBD" : fmtTime.format(d).replace(":00","").replace(" "," ");
-      const watch = opts.length
-        ? opts.map(o => `<span class="chip watch">▶ ${esc(o)}</span>`).join("")
-        : `<span class="chip need">Not on your services</span>`;
-      html += `<div class="game ${opts.length?"":"no"}">
-        <div class="time">${esc(t)}${started?'<small class="live">LIVE / RECENT</small>':''}</div>
-        <div><div class="m">${esc(g.matchup)}</div>
-          <div class="meta">${watch}${opts.includes(g.network)?"":`<span class="chip">${esc(g.network)}</span>`}${g.note?`<span class="chip">${esc(g.note)}</span>`:""}</div>
-        </div></div>`;
+      if (hiddenRegional) html += `<div class="more">+ ${hiddenRegional} regional CBS/FOX game${hiddenRegional===1?"":"s"} not airing in Raleigh (see All games)</div>`;
     }
-    list.innerHTML = html;
+    $("list").innerHTML = html || `<div class="empty">${view==="mine" ? "Nothing on your services right now. Check <b>My services</b> or look at <b>All games</b>." : "No upcoming games listed."}</div>`;
   }
 
   if ("serviceWorker" in navigator) { navigator.serviceWorker.register("sw.js").catch(() => {}); }
 
   syncForm();
-  if (firstVisit){ $("settings").hidden = false; $("hint").hidden = false; }
+  if (!svc.hulu){ $("settings").hidden = false; $("hint").hidden = false; }
 
   fetch("games.json", {cache:"no-store"}).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
     .then(j => {
       data = j;
-      const u = new Date(j.updated);
-      $("foot").insertAdjacentHTML("beforeend", `<br>Schedule data last refreshed ${esc(fmtDay.format(u))}. It refreshes automatically every week.`);
+      $("foot").insertAdjacentHTML("beforeend", `<br>Schedule data last refreshed ${esc(fmtDay.format(new Date(j.updated)))}. It refreshes automatically every week.`);
       render();
     })
     .catch(() => { $("sub").textContent = "Couldn't load the schedule. Try reopening the page."; });
