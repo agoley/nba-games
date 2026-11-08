@@ -11,6 +11,7 @@
 <meta name="apple-mobile-web-app-title" content="My Games">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -59,6 +60,10 @@
   .lg{font-weight:700;font-size:10.5px;letter-spacing:.05em;border-radius:5px;padding:2px 6px;color:#fff}
   .lg.NBA{background:#c8102e} .lg.NFL{background:#013369}
   .chip.reg{font-style:italic}
+  .game.now{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 26%,var(--card)),color-mix(in srgb,var(--accent) 10%,var(--card)));border:1.5px solid var(--accent);box-shadow:0 4px 18px color-mix(in srgb,var(--accent) 22%,transparent);position:relative}
+  .game.now .time{color:var(--accent)}
+  .game.now.no{opacity:.6}
+  .tag-today{position:absolute;top:-8px;right:12px;background:var(--accent);color:#fff;font-size:10px;font-weight:700;letter-spacing:.06em;border-radius:5px;padding:2px 6px}
   .more{color:var(--muted);font-size:12.5px;padding:2px 4px 8px}
 </style>
 </head>
@@ -214,7 +219,8 @@
         else if (g.regional) watch = `<span class="chip reg">Regional · not in Raleigh</span>`;
         else watch = `<span class="chip need">Not on your services</span>`;
         const net = opts.includes(g.network) ? "" : `<span class="chip">${esc(g.network)}</span>`;
-        html += `<div class="game ${opts.length?"":"no"}">
+        const isToday = day.k === todayK;
+        html += `<div class="game ${opts.length?"":"no"} ${isToday?"now":""}">${isToday?'<span class="tag-today">TODAY</span>':''}
           <div class="time">${esc(t)}${started?'<small class="live">LIVE / RECENT</small>':''}</div>
           <div><div class="m"><span class="lg ${g.league}">${g.league}</span> ${esc(g.matchup)}</div>
             <div class="meta">${watch}${net}${g.note?`<span class="chip">${esc(g.note)}</span>`:""}</div>
