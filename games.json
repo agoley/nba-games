@@ -1,0 +1,2323 @@
+{
+ "updated": "2026-11-08T17:58-05:00",
+ "season": "2026-27",
+ "games": [
+  {
+   "start": "2026-11-09T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Washington Wizards at Detroit Pistons",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-10T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Boston Celtics at Philadelphia 76ers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-10T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City Thunder at Portland Trail Blazers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-11T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Cleveland vs. New York",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-11T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. Houston",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-13T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Indiana",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-13T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. San Antonio",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-16T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Orlando Magic at Boston Celtics",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-17T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Detroit Pistons at San Antonio Spurs",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-17T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Utah Jazz at Los Angeles Clippers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-18T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Milwaukee vs. Miami",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-18T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. Dallas",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-20T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Toronto vs. Detroit",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-20T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston vs. Denver",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-23T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Brooklyn Nets at Minnesota Timberwolves",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-11-24T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Boston Celtics at Washington Wizards",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-24T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Dallas Mavericks at Denver Nuggets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-25T17:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami vs. Philadelphia",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-25T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota vs. Oklahoma City",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-25T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Portland",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": "NBA Cup"
+  },
+  {
+   "start": "2026-11-27T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami vs. New York",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "NBA Cup \u00b7 Black Friday"
+  },
+  {
+   "start": "2026-11-27T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles vs. San Antonio",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "NBA Cup \u00b7 Black Friday"
+  },
+  {
+   "start": "2026-11-30T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers at Houston Rockets",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-01T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York Knicks at Chicago Bulls",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-01T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Utah Jazz at Golden State Warriors",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-07T12:00:00-05:00",
+   "timeTBD": true,
+   "matchup": "TBD",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-11T12:00:00-05:00",
+   "timeTBD": true,
+   "matchup": "NBA Cup Championship",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "NBA Cup Final"
+  },
+  {
+   "start": "2026-12-12T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Miami",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-14T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia 76ers at Orlando Magic",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-15T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio Spurs at Cleveland Cavaliers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-15T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver Nuggets at Portland Trail Blazers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-16T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Washington vs. Boston",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-16T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers vs. Minnesota",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-18T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "LA vs. Miami",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-21T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York Knicks at Cleveland Cavaliers",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-22T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Detroit Pistons at Oklahoma City Thunder",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-22T22:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Dallas Mavericks at Golden State Warriors",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-23T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston vs. Philadelphia",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-23T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. Los Angeles",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-25T12:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. New York",
+   "network": "ABC/ESPN",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Christmas Day"
+  },
+  {
+   "start": "2026-12-25T14:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami vs. Boston",
+   "network": "ABC/ESPN",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Christmas Day"
+  },
+  {
+   "start": "2026-12-25T17:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. Los Angeles Lakers",
+   "network": "ABC/ESPN",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Christmas Day"
+  },
+  {
+   "start": "2026-12-25T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City vs. Minnesota",
+   "network": "ABC/ESPN",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Christmas Day"
+  },
+  {
+   "start": "2026-12-25T22:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. Golden State",
+   "network": "ABC/ESPN",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Christmas Day"
+  },
+  {
+   "start": "2026-12-28T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Cleveland Cavaliers at Boston Celtics",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-28T22:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota Timberwolves at Denver Nuggets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-29T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami Heat at Dallas Mavericks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-29T22:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston Rockets at Los Angeles Lakers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2026-12-31T16:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. Minnesota",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "New Year's Eve"
+  },
+  {
+   "start": "2027-01-04T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Chicago Bulls at Indiana Pacers",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-05T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota Timberwolves at Houston Rockets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-05T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Phoenix Suns at Denver Nuggets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-06T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City vs. Philadelphia",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-06T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Golden State",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-07T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota vs. Toronto",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-07T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Boston vs. Los Angeles",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-08T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami vs. Philadelphia",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-08T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Phoenix vs. Dallas",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-11T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver Nuggets at New York Knicks",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-11T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers at Los Angeles Clippers",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-12T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Washington Wizards at Philadelphia 76ers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-12T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Sacramento Kings at Golden State Warriors",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-13T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Boston",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-13T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston vs. Oklahoma City",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-14T14:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New Orleans vs. San Antonio",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "Paris Game"
+  },
+  {
+   "start": "2027-01-17T10:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. New Orleans",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": "Global Game"
+  },
+  {
+   "start": "2027-01-18T12:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Detroit Pistons at Cleveland Cavaliers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "MLK Day"
+  },
+  {
+   "start": "2027-01-18T14:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia 76ers at Atlanta Hawks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "MLK Day"
+  },
+  {
+   "start": "2027-01-18T17:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota Timberwolves at New York Knicks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "MLK Day"
+  },
+  {
+   "start": "2027-01-18T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston Rockets at Memphis Grizzlies",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": "MLK Day"
+  },
+  {
+   "start": "2027-01-19T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Charlotte Hornets at Dallas Mavericks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-19T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Utah Jazz at Denver Nuggets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-20T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Chicago vs. Brooklyn",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-20T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami vs. San Antonio",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-21T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. Boston",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-21T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles vs. Golden State",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-22T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Atlanta",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-22T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota vs. San Antonio",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-24T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City Thunder at Golden State Warriors",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-01-25T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Toronto Raptors at Boston Celtics",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-25T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Sacramento Kings at Denver Nuggets",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-26T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston Rockets at San Antonio Spurs",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-26T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City Thunder at Los Angeles Lakers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-27T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Detroit vs. Cleveland",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-27T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. Minnesota",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-28T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Atlanta vs. New York",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-28T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami vs. Milwaukee",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-29T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Cleveland vs. Toronto",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-29T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Charlotte vs. Minnesota",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-01-30T12:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. Miami",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Rivals Week"
+  },
+  {
+   "start": "2027-01-30T15:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. Oklahoma City",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Rivals Week"
+  },
+  {
+   "start": "2027-01-30T17:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Golden State",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Rivals Week"
+  },
+  {
+   "start": "2027-01-30T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers vs. New York",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "Rivals Week"
+  },
+  {
+   "start": "2027-01-31T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston Rockets at Dallas Mavericks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-02-01T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami Heat at Indiana Pacers",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-01T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio Spurs at Golden State Warriors",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-02T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers at Boston Celtics",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-02T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota Timberwolves at Portland Trail Blazers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-03T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Detroit",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-03T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Utah vs. Houston",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-04T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Boston vs. Charlotte",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-04T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Dallas vs. Denver",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-05T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Detroit vs. Philadelphia",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-05T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Indiana vs. Oklahoma City",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-06T15:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami vs. Minnesota",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-06T17:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Portland vs. Memphis",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-06T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers vs. San Antonio",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-07T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Boston Celtics at Philadelphia 76ers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-02-07T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York Knicks at Oklahoma City Thunder",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-02-08T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami Heat at Atlanta Hawks",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-08T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers at Phoenix Suns",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-09T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio Spurs at Dallas Mavericks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-09T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston Rockets at Utah Jazz",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-10T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. Boston",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-10T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "LA Clippers vs. Los Angeles Lakers",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-11T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Philadelphia",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-11T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Oklahoma City",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-12T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota vs. Boston",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-12T22:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. Los Angeles Lakers",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-13T15:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Dallas vs. Charlotte",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-13T17:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. Oklahoma City",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-13T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. New York",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-15T12:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota Timberwolves at Charlotte Hornets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Presidents' Day"
+  },
+  {
+   "start": "2027-02-15T14:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia 76ers at Dallas Mavericks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Presidents' Day"
+  },
+  {
+   "start": "2027-02-15T17:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio Spurs at Miami Heat",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Presidents' Day"
+  },
+  {
+   "start": "2027-02-15T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Indiana Pacers at Golden State Warriors",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": "Presidents' Day"
+  },
+  {
+   "start": "2027-02-16T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Toronto Raptors at Atlanta Hawks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-16T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston Rockets at Los Angeles Clippers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-17T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Detroit",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-17T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Boston vs. Oklahoma City",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-18T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Minnesota",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-18T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston vs. Los Angeles",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-25T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City vs. New York",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-25T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Dallas vs. Golden State",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-26T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Cleveland vs. Boston",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-26T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers vs. Denver",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-27T15:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Washington vs. Utah",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-27T17:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City vs. Detroit",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-27T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. New York",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-28T13:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. San Antonio",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": "in Austin"
+  },
+  {
+   "start": "2027-02-28T15:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers vs. Dallas",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-02-28T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Boston Celtics at Minnesota Timberwolves",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-02-28T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Miami Heat at Houston Rockets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-03-01T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia 76ers at Cleveland Cavaliers",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-01T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Washington Wizards at Phoenix Suns",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-02T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota Timberwolves at Oklahoma City Thunder",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-02T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Clippers at Portland Trail Blazers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-03T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Toronto vs. Miami",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-03T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Denver",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-04T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles vs. Philadelphia",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-04T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Dallas",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-05T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Boston vs. Detroit",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-05T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Houston",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-06T15:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Indiana vs. Miami",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-06T17:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Atlanta vs. Cleveland",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-06T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City vs. Los Angeles Lakers",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-07T13:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. Boston",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-07T15:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Minnesota vs. Denver",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-07T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York Knicks at San Antonio Spurs",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Finals rematch"
+  },
+  {
+   "start": "2027-03-07T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Houston Rockets at Golden State Warriors",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-08T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Charlotte Hornets at Indiana Pacers",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-08T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Dallas Mavericks at Oklahoma City Thunder",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-09T20:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Cleveland Cavaliers at Detroit Pistons",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-09T23:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Portland Trail Blazers at Golden State Warriors",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-10T19:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Orlando vs. Miami",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-10T21:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Atlanta vs. Minnesota",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-11T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. San Antonio",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-11T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Los Angeles",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-12T19:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City vs. Boston",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-12T22:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. Denver",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-13T15:00:00-05:00",
+   "timeTBD": false,
+   "matchup": "Orlando vs. Atlanta",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-13T17:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Indiana vs. Houston",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-13T20:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. Minnesota",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-13T22:30:00-05:00",
+   "timeTBD": false,
+   "matchup": "LA Clippers vs. Portland",
+   "network": "ABC/ESPN",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-14T12:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Boston vs. New York",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-14T14:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Oklahoma City",
+   "network": "ABC",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-14T19:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Miami Heat at Denver Nuggets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-03-14T22:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Golden State Warriors at Los Angeles Lakers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-03-15T19:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Toronto Raptors at Philadelphia 76ers",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-15T21:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Atlanta Hawks at Dallas Mavericks",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-16T20:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Detroit Pistons at Indiana Pacers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-16T23:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Denver Nuggets at Los Angeles Clippers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-17T19:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Dallas vs. Oklahoma City",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-17T22:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Phoenix vs. Los Angeles Lakers",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-21T19:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "San Antonio Spurs at Philadelphia 76ers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-03-21T22:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Dallas Mavericks at Los Angeles Lakers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-03-22T19:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Indiana Pacers at Orlando Magic",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-22T21:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Detroit Pistons at Minnesota Timberwolves",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-23T20:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers at Miami Heat",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-23T23:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City Thunder at Phoenix Suns",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-24T19:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Boston",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-24T22:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. Golden State",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-27T15:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "San Antonio vs. Detroit",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-28T12:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "New York vs. Orlando",
+   "network": "ABC/ESPN",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-28T15:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles Lakers vs. Houston",
+   "network": "ABC/ESPN",
+   "nets": [
+    "abc",
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-28T19:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Oklahoma City Thunder at Minnesota Timberwolves",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-03-28T22:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia 76ers at Denver Nuggets",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-03-29T19:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Miami Heat at Cleveland Cavaliers",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-29T21:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Phoenix Suns at San Antonio Spurs",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-30T20:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "New York Knicks at Orlando Magic",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-30T23:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Houston Rockets at Portland Trail Blazers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-31T19:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. Philadelphia",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-03-31T21:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. Dallas",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-01T19:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Boston vs. Cleveland",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-01T21:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Los Angeles vs. Oklahoma City",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-02T19:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. Minnesota",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-02T22:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. Phoenix",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-04T19:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Boston Celtics at New York Knicks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-04-04T22:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "San Antonio Spurs at Los Angeles Lakers",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": "Sunday Night Basketball"
+  },
+  {
+   "start": "2027-04-05T19:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Miami Heat at Orlando Magic",
+   "network": "NBCSN \u00b7 Peacock",
+   "nets": [
+    "nbcsn",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-06T20:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "New York Knicks at Atlanta Hawks",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-06T23:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Phoenix Suns at Golden State Warriors",
+   "network": "NBC \u00b7 Peacock",
+   "nets": [
+    "nbc",
+    "peacock"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-07T19:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Cleveland vs. San Antonio",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-07T22:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Minnesota vs. Los Angeles Lakers",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-08T19:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Philadelphia vs. Miami",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-08T21:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Golden State vs. Oklahoma City",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-09T19:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "Detroit vs. New York",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-09T21:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "Denver vs. San Antonio",
+   "network": "Prime Video",
+   "nets": [
+    "prime"
+   ],
+   "note": ""
+  },
+  {
+   "start": "2027-04-11T18:00:00-04:00",
+   "timeTBD": false,
+   "matchup": "TBD",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": "Regular-season finale"
+  },
+  {
+   "start": "2027-04-11T20:30:00-04:00",
+   "timeTBD": false,
+   "matchup": "TBD",
+   "network": "ESPN",
+   "nets": [
+    "espn"
+   ],
+   "note": "Regular-season finale"
+  }
+ ]
+}
